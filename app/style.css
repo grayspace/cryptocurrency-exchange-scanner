@@ -1,0 +1,59 @@
+body {
+  background-color: #101720;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+#table {
+  background-color: #2F3440;
+  color: #ccc;
+  font-size: 12px;
+}
+
+#table th {
+  border: none;
+}
+
+#table td {
+  padding: 1px 4px 1px 4px;
+  border-top: 1px solid #5d5d5d;
+  border-left: none;
+}
+
+#results i {
+  color: #888888;
+}
+
+.link a {
+  font-weight: bold;
+  color: #7685a9;
+}
+
+.search {
+  margin-top: 2px !important;
+  margin-bottom: 2px !important;
+}
+
+.search input {
+  width: 168px;
+  color: #ccc;
+  background: #2F3440;
+  border: #5d5d5d 1px solid;
+}
+
+.form-control {
+  margin: 0 auto;
+}
+
+.fixed-table-toolbar,
+.bs-bars {
+  margin-top: 2px !important;
+  margin-bottom: 2px !important;
+}
+
+.fixed-table-toolbar .columns {
+    margin-top: 2px !important;
+  margin-bottom: 2px !important;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.12.1/bootstrap-table.min.css">
+  <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>ABCoinScanner</title>
+</head>
+
+<body>
+  <div class="container">
+    <div id="results" class="row">
+      <div id="toolbar" class="form-inline">
+        <input id="chk-scanner-on" type="checkbox" data-toggle="toggle" data-on="Scan" data-off="Scan" data-size="small" data-onstyle="danger" checked>
+        <input id="chk-sound-on" type="checkbox" data-toggle="toggle" data-on="Alert" data-off="Alert" data-size="small" data-onstyle="danger" checked>
+        <button id="btn-auto-filter" class="btn btn-default btn-sm" title="adx <= 25 && maxDiff >= 15 && rsi <= 55"><i class="glyphicon glyphicon-flash"></i></button>
+        <!--<button id="btn-show-filters" class="btn btn-default btn-sm" title="Show filters"><i class="glyphicon glyphicon-filter"></i></button>-->
+      </div>
+      <table id="table"></table>
+    </div>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-firestore.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.12.1/bootstrap-table.min.js"></script>
+  <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
